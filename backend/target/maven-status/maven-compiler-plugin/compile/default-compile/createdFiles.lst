@@ -1,4 +1,0 @@
-com\attendance\AttendanceApplication.class
-com\attendance\model\AttendanceRecord.class
-com\attendance\controller\AttendanceController.class
-com\attendance\repository\AttendanceRepository.class
