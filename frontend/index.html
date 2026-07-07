@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Attendance Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h2>Employee Attendance Monitor</h2>
+
+<input type="text" id="empCode" placeholder="Employee Code">
+
+<input type="text" id="empName" placeholder="Employee Name">
+
+<button onclick="checkIn()">Check In</button>
+
+<button onclick="checkOut()">Check Out</button>
+
+<table>
+
+<thead>
+
+<tr>
+<th>S.No</th>
+<th>Employee Code</th>
+<th>Employee Name</th>
+<th>In Time</th>
+<th>Out Time</th>
+<th>Status</th>
+</tr>
+
+</thead>
+
+<tbody id="tableBody">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
