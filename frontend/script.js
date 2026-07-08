@@ -17,7 +17,7 @@ async function loadAttendance() {
         renderTable(records);
     } catch (err) {
         console.error(err);
-        alert("Could not reach the server. Is the backend running on port 8080?");
+        alert("Could not reach the server. Is the backend running on port 8081?");
     }
 }
 
@@ -63,7 +63,7 @@ async function checkIn() {
         loadAttendance();
     } catch (err) {
         console.error(err);
-        alert("Could not reach the server. Is the backend running on port 8080?");
+        alert("Could not reach the server. Is the backend running on port 8081?");
     }
 }
 
@@ -93,7 +93,7 @@ async function checkOut() {
         loadAttendance();
     } catch (err) {
         console.error(err);
-        alert("Could not reach the server. Is the backend running on port 8080?");
+        alert("Could not reach the server. Is the backend running on port 8081?");
     }
 }
 
